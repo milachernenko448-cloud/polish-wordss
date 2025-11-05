@@ -14,4 +14,4 @@ st.subheader(word["word"])
 st.write(f"**Переклад:** {word['translation']}")
 st.write(f"**Приклад:** {word['example']}")
 if st.button("🔁 Наступне слово"):
-    st.experimental_rerun()
+    st.rerun()
